@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suites" >
+
+  <test name="Test">
+    <classes>
+      <class name="Sample.FrameWork.modules.LogIn"/>
+    </classes>
+  </test> 
+  
+  <test name="Test">
+    <classes>
+      <class name="Sample.FrameWork.modules.Download"/>
+    </classes>
+  </test> 
+  
+  
+</suite> 

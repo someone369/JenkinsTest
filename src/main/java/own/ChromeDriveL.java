@@ -20,7 +20,7 @@ public class ChromeDriveL implements WebdriverL{
 	}
 
 	public void close() {
-		System.out.println("This method is closing the browser ;");
+		System.out.println("User used this method to close the brower");
 	}
 
 	public void getTitle(String title) {

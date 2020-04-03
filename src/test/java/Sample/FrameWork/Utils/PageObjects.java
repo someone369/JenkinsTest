@@ -1,4 +1,5 @@
 package Sample.FrameWork.Utils;
+
 public interface PageObjects {
 		/*
 		 * Main tab objects

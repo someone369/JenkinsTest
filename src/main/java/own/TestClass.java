@@ -12,6 +12,7 @@ public class TestClass {
 		System.out.println(i);
 		 i = 20;
 		 System.out.println(i);
+		driver.close();
 	}
 
 }

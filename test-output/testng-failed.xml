@@ -6,17 +6,4 @@
       <class name="Sample.FrameWork.modules.LogIn"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="Sample.FrameWork.modules.LogIn">
-        <methods>
-          <include name="homePage_ClickOnLoginButton"/>
-          <include name="loadConfig"/>
-          <include name="enterCredentials"/>
-          <include name="TEstStart"/>
-          <include name="Testend"/>
-        </methods>
-      </class> <!-- Sample.FrameWork.modules.LogIn -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
