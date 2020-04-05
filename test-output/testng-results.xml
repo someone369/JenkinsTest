@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31906" started-at="2020-04-01T06:40:36Z" finished-at="2020-04-01T06:41:08Z">
+  <suite name="Default suite" duration-ms="31696" started-at="2020-04-05T17:56:09Z" finished-at="2020-04-05T17:56:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31906" started-at="2020-04-01T06:40:36Z" finished-at="2020-04-01T06:41:08Z">
-      <class name="Sample.FrameWork.modules.LogIn">
-        <test-method status="PASS" signature="loadConfig()[pri:0, instance:Sample.FrameWork.modules.LogIn@29774679]" name="loadConfig" is-config="true" duration-ms="44" started-at="2020-04-01T12:10:36Z" finished-at="2020-04-01T12:10:36Z">
+    <test name="Default test" duration-ms="31696" started-at="2020-04-05T17:56:09Z" finished-at="2020-04-05T17:56:41Z">
+      <class name="locators.Csstest">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:locators.Csstest@29774679]" name="loadConfig" is-config="true" duration-ms="25" started-at="2020-04-05T23:26:09Z" finished-at="2020-04-05T23:26:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method status="PASS" signature="TestStart()[pri:0, instance:Sample.FrameWork.modules.LogIn@29774679]" name="TestStart" is-config="true" duration-ms="25470" started-at="2020-04-01T12:10:36Z" finished-at="2020-04-01T12:11:01Z">
+        <test-method status="PASS" signature="browser_configurations()[pri:0, instance:locators.Csstest@29774679]" name="browser_configurations" is-config="true" duration-ms="15882" started-at="2020-04-05T23:26:09Z" finished-at="2020-04-05T23:26:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestStart -->
-        <test-method status="PASS" signature="homePage_ClickOnLoginButton()[pri:0, instance:Sample.FrameWork.modules.LogIn@29774679]" name="homePage_ClickOnLoginButton" duration-ms="2803" started-at="2020-04-01T12:11:01Z" finished-at="2020-04-01T12:11:04Z">
+        </test-method> <!-- browser_configurations -->
+        <test-method status="PASS" signature="home_page_verification()[pri:0, instance:locators.Csstest@29774679]" name="home_page_verification" duration-ms="530" started-at="2020-04-05T23:26:25Z" finished-at="2020-04-05T23:26:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePage_ClickOnLoginButton -->
-        <test-method status="PASS" signature="enterCredentials()[pri:0, instance:Sample.FrameWork.modules.LogIn@29774679]" name="enterCredentials" duration-ms="2706" started-at="2020-04-01T12:11:04Z" depends-on-methods="Sample.FrameWork.modules.LogIn.homePage_ClickOnLoginButton" finished-at="2020-04-01T12:11:07Z">
+        </test-method> <!-- home_page_verification -->
+        <test-method status="PASS" signature="blaze_Meter()[pri:0, instance:locators.Csstest@29774679]" name="blaze_Meter" duration-ms="14280" started-at="2020-04-05T23:26:25Z" depends-on-methods="locators.Csstest.home_page_verification" finished-at="2020-04-05T23:26:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterCredentials -->
-        <test-method status="PASS" signature="Testend()[pri:0, instance:Sample.FrameWork.modules.LogIn@29774679]" name="Testend" is-config="true" duration-ms="765" started-at="2020-04-01T12:11:07Z" finished-at="2020-04-01T12:11:08Z">
+        </test-method> <!-- blaze_Meter -->
+        <test-method status="PASS" signature="closeBrwser()[pri:0, instance:locators.Csstest@29774679]" name="closeBrwser" is-config="true" duration-ms="940" started-at="2020-04-05T23:26:40Z" finished-at="2020-04-05T23:26:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testend -->
-      </class> <!-- Sample.FrameWork.modules.LogIn -->
+        </test-method> <!-- closeBrwser -->
+      </class> <!-- locators.Csstest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

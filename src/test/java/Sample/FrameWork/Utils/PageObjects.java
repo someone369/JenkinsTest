@@ -17,5 +17,11 @@ public interface PageObjects {
 	String AUTOMATIONPRACTICE_USERNAME_EMAIL_XPATH = "//input[@id='email']";
 	String AUTOMATIONPRACTICE_PASSWORD_XPATH = "//input[@id='passwd']";
 	String AUTOMATIONPRACTICE_HOME_BUTTON = "//a[@title='Return to Home']";
-
+	
+	/**
+	 * CssSelector locator Test
+	 */
+	String PAYPALL_SIGN_LINK_CSS = "#signup-button";
+	String GETTING_STARTED_CSS = "ul#categories>li:first-of-type";
+	String HUBSPOT_LINK_CSS = "p.hsg-promo-bar__text>a";
 }

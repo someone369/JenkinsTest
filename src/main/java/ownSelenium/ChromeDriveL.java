@@ -1,4 +1,4 @@
-package own;
+package ownSelenium;
 
 public class ChromeDriveL implements WebdriverL{
 	

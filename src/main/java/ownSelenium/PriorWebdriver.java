@@ -1,4 +1,4 @@
-package own;
+package ownSelenium;
 
 public interface PriorWebdriver {
 	

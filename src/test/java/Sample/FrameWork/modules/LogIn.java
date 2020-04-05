@@ -11,7 +11,7 @@ public class LogIn extends BaseSetUp{
 	
 		@BeforeTest
 		public void TestStart() throws Exception{
-			openBroser();
+			openBrowser();
 			System.out.println("LogIn Test Sratred");
 		}
 		@AfterTest

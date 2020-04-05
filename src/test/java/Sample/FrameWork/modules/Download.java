@@ -20,7 +20,7 @@ import Sample.FrameWork.testBase.BaseSetUp;
 public class Download extends  BaseSetUp{
 	@BeforeTest
 	public void open() throws Exception{
-		openBroser();
+		openBrowser();
 	}
 	@AfterTest
 	public void closeBrowser(){
