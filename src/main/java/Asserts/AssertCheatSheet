@@ -1,0 +1,12 @@
+
+
+SoftAssert:
+
+
+			when we use SoftAssert with Assertall() test was executed but in the console it is showing as failed.
+ 			it is very usefull for testing perpose
+ 
+ HardAssert or Assert:
+ 
+ 			when we use hard assert the movement assert failed it wont allow the oter line to execute
+ 			so we would not know that the it may be error in the upcoming line
