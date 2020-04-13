@@ -2,28 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30414" started-at="2020-04-08T18:28:22Z" finished-at="2020-04-08T18:28:53Z">
+  <suite name="Default suite" duration-ms="13217" started-at="2020-04-10T09:27:33Z" finished-at="2020-04-10T09:27:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30414" started-at="2020-04-08T18:28:22Z" finished-at="2020-04-08T18:28:53Z">
-      <class name="JavaScriptExecutor.javaScriptExeMethods">
-        <test-method status="PASS" signature="loadConfig()[pri:0, instance:JavaScriptExecutor.javaScriptExeMethods@27f674d]" name="loadConfig" is-config="true" duration-ms="17" started-at="2020-04-08T23:58:22Z" finished-at="2020-04-08T23:58:22Z">
+    <test name="Default test" duration-ms="13217" started-at="2020-04-10T09:27:33Z" finished-at="2020-04-10T09:27:46Z">
+      <class name="UploadFile.AutoItTest">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:UploadFile.AutoItTest@5e3a8624]" name="loadConfig" is-config="true" duration-ms="13" started-at="2020-04-10T14:57:33Z" finished-at="2020-04-10T14:57:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method status="PASS" signature="browserconfig()[pri:0, instance:JavaScriptExecutor.javaScriptExeMethods@27f674d]" name="browserconfig" is-config="true" duration-ms="16214" started-at="2020-04-08T23:58:22Z" finished-at="2020-04-08T23:58:39Z">
+        <test-method status="PASS" signature="browseConfig()[pri:0, instance:UploadFile.AutoItTest@5e3a8624]" name="browseConfig" is-config="true" duration-ms="12834" started-at="2020-04-10T14:57:33Z" finished-at="2020-04-10T14:57:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserconfig -->
-        <test-method status="PASS" signature="javaScriptMethods()[pri:0, instance:JavaScriptExecutor.javaScriptExeMethods@27f674d]" name="javaScriptMethods" duration-ms="13383" started-at="2020-04-08T23:58:39Z" finished-at="2020-04-08T23:58:52Z">
+        </test-method> <!-- browseConfig -->
+        <test-method status="PASS" signature="filrupload()[pri:0, instance:UploadFile.AutoItTest@5e3a8624]" name="filrupload" duration-ms="331" started-at="2020-04-10T14:57:46Z" finished-at="2020-04-10T14:57:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- javaScriptMethods -->
-        <test-method status="PASS" signature="closebroser()[pri:0, instance:JavaScriptExecutor.javaScriptExeMethods@27f674d]" name="closebroser" is-config="true" duration-ms="798" started-at="2020-04-08T23:58:52Z" finished-at="2020-04-08T23:58:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebroser -->
-      </class> <!-- JavaScriptExecutor.javaScriptExeMethods -->
+        </test-method> <!-- filrupload -->
+      </class> <!-- UploadFile.AutoItTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

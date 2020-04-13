@@ -24,4 +24,11 @@ public interface PageObjects {
 	String PAYPALL_SIGN_LINK_CSS = "#signup-button";
 	String GETTING_STARTED_CSS = "ul#categories>li:first-of-type";
 	String HUBSPOT_LINK_CSS = "p.hsg-promo-bar__text>a";
+	
+	/**
+	 * Autoit Script
+	 */
+	String choose_File_xpath = "//input[@id='imagesrc']";
+	
+	
 }
