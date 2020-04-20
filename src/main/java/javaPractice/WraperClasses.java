@@ -13,7 +13,7 @@ public class WraperClasses {
 		int num = Integer.parseInt(i);
 		System.out.println(num+10);
 		
-		// Data conversion from string to Double
+		// Data conversion from string to Double 
 		String d = "12.23";
 		Double d2 = Double.parseDouble(d);
 		
