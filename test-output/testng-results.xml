@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19135" started-at="2020-04-18T21:24:14Z" finished-at="2020-04-18T21:24:33Z">
+  <suite name="Suite" duration-ms="29444" started-at="2020-04-22T17:08:28Z" finished-at="2020-04-22T17:08:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19135" started-at="2020-04-18T21:24:14Z" finished-at="2020-04-18T21:24:33Z">
-      <class name="SingletonSelenium.PageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:SingletonSelenium.PageTest@56cbfb61]" name="setUp" is-config="true" duration-ms="14303" started-at="2020-04-19T02:54:14Z" finished-at="2020-04-19T02:54:28Z">
+    <test name="LogIn" duration-ms="29444" started-at="2020-04-22T17:08:28Z" finished-at="2020-04-22T17:08:58Z">
+      <class name="Sample.FrameWork.modules.LogIn">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:Sample.FrameWork.modules.LogIn@4411d970]" name="loadConfig" is-config="true" duration-ms="17" started-at="2020-04-22T22:38:28Z" finished-at="2020-04-22T22:38:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="title()[pri:0, instance:SingletonSelenium.PageTest@56cbfb61]" name="title" duration-ms="141" started-at="2020-04-19T02:54:28Z" finished-at="2020-04-19T02:54:29Z">
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="TestStart()[pri:0, instance:Sample.FrameWork.modules.LogIn@4411d970]" name="TestStart" is-config="true" duration-ms="21414" started-at="2020-04-22T22:38:28Z" finished-at="2020-04-22T22:38:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- title -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:SingletonSelenium.PageTest@56cbfb61]" name="CloseBrowser" is-config="true" duration-ms="4670" started-at="2020-04-19T02:54:29Z" finished-at="2020-04-19T02:54:33Z">
+        </test-method> <!-- TestStart -->
+        <test-method status="PASS" signature="homePage_ClickOnLoginButton()[pri:0, instance:Sample.FrameWork.modules.LogIn@4411d970]" name="homePage_ClickOnLoginButton" duration-ms="3504" started-at="2020-04-22T22:38:50Z" finished-at="2020-04-22T22:38:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- SingletonSelenium.PageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- homePage_ClickOnLoginButton -->
+        <test-method status="PASS" signature="enterCredentials()[pri:0, instance:Sample.FrameWork.modules.LogIn@4411d970]" name="enterCredentials" duration-ms="3760" started-at="2020-04-22T22:38:53Z" depends-on-methods="Sample.FrameWork.modules.LogIn.homePage_ClickOnLoginButton" finished-at="2020-04-22T22:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCredentials -->
+        <test-method status="PASS" signature="Testend()[pri:0, instance:Sample.FrameWork.modules.LogIn@4411d970]" name="Testend" is-config="true" duration-ms="739" started-at="2020-04-22T22:38:57Z" finished-at="2020-04-22T22:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testend -->
+      </class> <!-- Sample.FrameWork.modules.LogIn -->
+    </test> <!-- LogIn -->
+  </suite> <!-- Suite -->
 </testng-results>
