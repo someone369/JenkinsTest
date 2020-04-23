@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33436" started-at="2020-04-22T19:31:15Z" finished-at="2020-04-22T19:31:48Z">
+  <suite name="Suite" duration-ms="34953" started-at="2020-04-23T13:33:12Z" finished-at="2020-04-23T13:33:47Z">
     <groups>
     </groups>
-    <test name="LogIn" duration-ms="33436" started-at="2020-04-22T19:31:15Z" finished-at="2020-04-22T19:31:48Z">
+    <test name="LogIn" duration-ms="34953" started-at="2020-04-23T13:33:12Z" finished-at="2020-04-23T13:33:47Z">
       <class name="Sample.FrameWork.modules.LogIn">
-        <test-method status="PASS" signature="loadConfig()[pri:0, instance:Sample.FrameWork.modules.LogIn@1e6d1014]" name="loadConfig" is-config="true" duration-ms="13" started-at="2020-04-22T19:31:15Z" finished-at="2020-04-22T19:31:15Z">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:Sample.FrameWork.modules.LogIn@1e6d1014]" name="loadConfig" is-config="true" duration-ms="19" started-at="2020-04-23T13:33:12Z" finished-at="2020-04-23T13:33:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method status="PASS" signature="TestStart()[pri:0, instance:Sample.FrameWork.modules.LogIn@1e6d1014]" name="TestStart" is-config="true" duration-ms="24131" started-at="2020-04-22T19:31:15Z" finished-at="2020-04-22T19:31:39Z">
+        <test-method status="PASS" signature="TestStart()[pri:0, instance:Sample.FrameWork.modules.LogIn@1e6d1014]" name="TestStart" is-config="true" duration-ms="27795" started-at="2020-04-23T13:33:12Z" finished-at="2020-04-23T13:33:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestStart -->
-        <test-method status="PASS" signature="homePage_ClickOnLoginButton()[pri:0, instance:Sample.FrameWork.modules.LogIn@1e6d1014]" name="homePage_ClickOnLoginButton" duration-ms="3320" started-at="2020-04-22T19:31:39Z" finished-at="2020-04-22T19:31:43Z">
+        <test-method status="PASS" signature="homePage_ClickOnLoginButton()[pri:0, instance:Sample.FrameWork.modules.LogIn@1e6d1014]" name="homePage_ClickOnLoginButton" duration-ms="3263" started-at="2020-04-23T13:33:40Z" finished-at="2020-04-23T13:33:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage_ClickOnLoginButton -->
-        <test-method status="PASS" signature="enterCredentials()[pri:0, instance:Sample.FrameWork.modules.LogIn@1e6d1014]" name="enterCredentials" duration-ms="5047" started-at="2020-04-22T19:31:43Z" depends-on-methods="Sample.FrameWork.modules.LogIn.homePage_ClickOnLoginButton" finished-at="2020-04-22T19:31:48Z">
+        <test-method status="PASS" signature="enterCredentials()[pri:0, instance:Sample.FrameWork.modules.LogIn@1e6d1014]" name="enterCredentials" duration-ms="2944" started-at="2020-04-23T13:33:44Z" depends-on-methods="Sample.FrameWork.modules.LogIn.homePage_ClickOnLoginButton" finished-at="2020-04-23T13:33:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterCredentials -->
-        <test-method status="PASS" signature="Testend()[pri:0, instance:Sample.FrameWork.modules.LogIn@1e6d1014]" name="Testend" is-config="true" duration-ms="764" started-at="2020-04-22T19:31:48Z" finished-at="2020-04-22T19:31:48Z">
+        <test-method status="PASS" signature="Testend()[pri:0, instance:Sample.FrameWork.modules.LogIn@1e6d1014]" name="Testend" is-config="true" duration-ms="766" started-at="2020-04-23T13:33:47Z" finished-at="2020-04-23T13:33:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testend -->

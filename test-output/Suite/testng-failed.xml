@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="LogIn">
+  <test name="SauceLabsDemo(failed)">
     <classes>
-      <class name="Sample.FrameWork.modules.LogIn"/>
+      <class name="saucelabs.SauceLabsDemo">
+        <methods>
+          <include name="runSauce"/>
+        </methods>
+      </class> <!-- saucelabs.SauceLabsDemo -->
     </classes>
-  </test> <!-- LogIn -->
+  </test> <!-- SauceLabsDemo(failed) -->
 </suite> <!-- Failed suite [Suite] -->
