@@ -1,6 +1,8 @@
 package Sample.FrameWork.testBase;
 
 import java.io.FileInputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -9,6 +11,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeSuite;
@@ -133,5 +137,37 @@ public class BaseSetUp {
 	public void element_Clickable_Id(String element) {
 		WebDriverWait wait = new WebDriverWait(driver, 15);
 		wait.until(ExpectedConditions.elementToBeClickable(By.id(element)));
+	}
+	
+	public void saucelabsConfig(String sauceUserName, String sauceAccessKey) throws MalformedURLException{
+		/**
+	     * In this section, we will configure our test to run on some specific
+	     * browser/os combination in Sauce Labs
+	     */
+	    DesiredCapabilities capabilities = new DesiredCapabilities();
+
+	    //set your user name and access key to run tests in Sauce
+	    capabilities.setCapability("username", sauceUserName);
+
+	    //set your sauce labs access key
+	    capabilities.setCapability("accessKey", sauceAccessKey);
+
+	    //set browser to Safari
+	    capabilities.setCapability("browserName", "Safari");
+
+	    //set operating system to macOS version 10.13
+	    capabilities.setCapability("platform", "macOS 10.13");
+
+	    //set the browser version to 11.1
+	    capabilities.setCapability("version", "latest");
+
+	    //set your test case name so that it shows up in Sauce Labs
+	    capabilities.setCapability("tunnelIdentifier", "SauceTester");	
+	    
+	   // capabilities.setCapability("name", testInfo.getDisplayName());
+
+	    driver = new RemoteWebDriver(new URL("https://ondemand.eu-central-1.saucelabs.com:443/wd/hub"), capabilities);
+
+	    
 	}
 }
