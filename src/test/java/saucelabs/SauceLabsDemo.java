@@ -86,9 +86,11 @@ public class SauceLabsDemo {
 	     */
 	    if (result){
 	      ((JavascriptExecutor)driver).executeScript("sauce:job-result=passed");
+	      System.out.println("Test is passed");
 	    }
 	    else {
 	      ((JavascriptExecutor)driver).executeScript("sauce:job-result=failed");
+	      System.out.println("Test is Failed");
 	    }
 	    driver.quit();
 
