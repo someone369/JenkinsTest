@@ -41,13 +41,13 @@ public class SauceLabsDemo {
 	    capabilities.setCapability("accessKey", sauceAccessKey);
 
 	    //set browser to Safari
-	    capabilities.setCapability("browserName", "Safari");
+	    capabilities.setCapability("browserName", "Chrome");
 
 	    //set operating system to macOS version 10.13
-	    capabilities.setCapability("platform", "macOS 10.13");
+	    capabilities.setCapability("platform", "windows 10");
 
 	    //set the browser version to 11.1
-	    capabilities.setCapability("version", "11.1");
+	    capabilities.setCapability("version", "latest");
 
 	    //set your test case name so that it shows up in Sauce Labs
 	   // capabilities.setCapability("name", testInfo.getDisplayName());
