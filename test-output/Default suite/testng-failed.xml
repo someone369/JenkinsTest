@@ -3,14 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Sample.FrameWork.modules.SauceLogin">
+      <class name="saucelabs.SauceLabsDemo">
         <methods>
-          <include name="navigateUrl"/>
-          <include name="loadConfig"/>
-          <include name="TestStart"/>
-          <include name="products"/>
+          <include name="shouldOpenSafari"/>
         </methods>
-      </class> <!-- Sample.FrameWork.modules.SauceLogin -->
+      </class> <!-- saucelabs.SauceLabsDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
